@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  height: 100vh;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.board {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 210px;
+  height: 210px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.move  {
+  margin-top: 5px;
+}
